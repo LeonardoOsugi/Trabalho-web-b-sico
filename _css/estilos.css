@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    border: 2px solid #f1f1f1;
+    background-image: url(https://i.pinimg.com/originals/56/97/02/5697023996c6614e27874c3104db927a.jpg);
+}
+
+.cabecalho, .rodape{
+    background-color: #093ab6;
+}
+
+.cabecalho p{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape p{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.topnav{
+    background-color: #0f1009;
+    padding: 10px;
+}
+
+.topnav li{
+    display: inline;
+}
+
+.topnav li#sobre{
+    float: right;
+}
+
+.topnav a{
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #dddddd;
+    color: #4400ff;
+}
+
+.conteudo h1{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #dddddd;
+}
+
+.conteudo img{
+    display: block;
+    width: 150px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    margin: 0px auto 0px auto;
+}
+
+.conteudo h2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #dddddd;
+}
+
+.conteudo p{
+    text-align: justify;
+    line-height: 1.5;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: #dddddd;
+}
+
+.detalhes{
+    margin: 10px auto 10px auto;
+}
+
+.detalhes caption{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #dddddd;
+}
+
+.detalhes td{
+    font-size: 12px;
+    border: 1px solid #606060;
+    padding: 10px;
+    background-color: #dddddd;
+}
+
+.detalhes .ce{
+    background-color: #606060;
+    color: #ffffff;
+    text-align: center;
+}
